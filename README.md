@@ -2,7 +2,7 @@
 
 The project can be seen in the .ipynb file.
 
-## Introduction
+### Introduction
 This is the capstone project for Coursera's Linear Regression and Modeling MOOC. We are provided with a dataset of 651 randomly-selected movies from IMDB and asked to explore the data and build a linear regression model to predict movie ratings. It turns out that it was infeasible to build a high-performing linear regression model with this dataset, so identifying the statistically-significant predictors of movie ratings was promoted to primary goal.
 
 ### Goals
