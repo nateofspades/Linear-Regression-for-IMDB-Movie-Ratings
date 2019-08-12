@@ -3,7 +3,7 @@
 You can see the project at the following link: <br />
 https://nbviewer.jupyter.org/github/nateofspades/Linear-Regression-for-IMDB-Movie-Ratings/blob/master/ProjectIMDB.ipynb
 
-## Summary
+## Introduction
 This is the capstone project for Coursera's Linear Regression and Modeling MOOC. We are provided with a dataset of 651 randomly-selected movies from IMDB and asked to explore the data and build a linear regression model to predict movie ratings. It turns out that it was infeasible to build a high-performing linear regression model with this dataset, so identifying the statistically-significant predictors of movie ratings was promoted to primary goal.
 
 ### Goals
@@ -37,4 +37,4 @@ The analysis found that each of the following have a p-value < 0.0006 when predi
 •best_director ('yes', 'no') <br />
 
 ### Linear Regression Model
-As mentioned at the beginning of this README, it was not feasible to build a high-performing linear regression model from this dataset. First I built a linear regression model that attempts to predict movie ratings using just the 5 significant predictors, but its adjusted R-squared was only 0.2993. Then I decided to take an all-possible-models approach, whereby I would build one model for each possible subset of features. This was computationally feasible given that there were just 10 features to choose from (and therefore a mere 2^10=1024 possible models), but the adjusted R-squared only jumped to 0.3127.
+As mentioned in the introduction, it was not feasible to build a high-performing linear regression model from this dataset. First I built a linear regression model that attempts to predict movie ratings using just the 5 significant predictors, but its adjusted R-squared was only 0.2993. Then I decided to take an all-possible-models approach, whereby I built one model for each possible subset of features and kept the one which performed best. This was computationally feasible given that there were just 10 features to choose from (and therefore a mere 2^10=1024 possible models), but the adjusted R-squared only jumped to 0.3127.
