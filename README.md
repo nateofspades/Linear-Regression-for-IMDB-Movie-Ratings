@@ -12,11 +12,11 @@ This is the capstone project for Coursera's Linear Regression and Modeling MOOC.
 
 ### Univariate Analysis
 After some data cleaning, a univariate analysis was performed on the features. Some findings:
-•R-rated movies are the most common by rating.
-•Drama movies are the most common by genre.
-•Movies are most commonly released on the 1st of the month.
-•Movies around 100 minutes in length are the most common.
-•Most movies don't have an Oscar-winning actor in the cast.
+•R-rated movies are the most common by rating. <br />
+•Drama movies are the most common by genre. <br />
+•Movies are most commonly released on the 1st of the month. <br />
+•Movies around 100 minutes in length are the most common. <br />
+•Most movies don't have an Oscar-winning actor in the cast. <br />
 •Most movies are not directed by an Oscar-winning director.
 
 ### Bivariate Analysis
