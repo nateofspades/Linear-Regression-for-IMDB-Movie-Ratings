@@ -21,20 +21,20 @@ After some data cleaning, a univariate analysis was performed on the features. S
 
 ### Bivariate Analysis
 Here we compared each of the features in the dataset to the target variable, IMDB rating. Some findings:
-•Having an Oscar-winning director in the cast predicts higher ratings.
-•However, having an Oscar-winning actor in the cast does not predict higher ratings.
-•Documentaries rate higher than feature films.
-•Documentaries are the highest-rated genre.
-•Comedy is the lowest-rated genre.
+•Having an Oscar-winning director in the cast predicts higher ratings. <br />
+•However, having an Oscar-winning actor in the cast does not predict higher ratings. <br />
+•Documentaries rate higher than feature films. <br />
+•Documentaries are the highest-rated genre. <br />
+•Comedy is the lowest-rated genre. <br />
 •Many movies that are between 77-129 minutes in length rate below 5.6. However, not a single movie longer than 129 minutes rates this low (even though there are many movies longer than 129 minutes).
 
 ### Statistically-Significant Predictors of IMDB Rating
 The analysis found that each of the following have a p-value < 0.0006 when predicting IMDB Rating:
-•movie length
-•genre
-•type ('Feature Film', 'Documentary')
-•maturity ('R', 'PG', 'PG-13', 'G')
-•best_director ('yes', 'no')
+•movie length <br />
+•genre <br />
+•type ('Feature Film', 'Documentary') <br />
+•maturity ('R', 'PG', 'PG-13', 'G') <br />
+•best_director ('yes', 'no') <br />
 
 ### Linear Regression Model
 As mentioned at the beginning of this README, it was not feasible to build a high-performing linear regression model from this dataset. First I built a linear regression model that attempts to predict movie ratings using just the 5 significant predictors, but its adjusted R-squared was only 0.2993. Then I decided to take an all-possible-models approach, whereby I would build one model for each possible subset of features. This was computationally feasible given that there were just 10 features to choose from (and therefore a mere 2^10=1024 possible models), but the adjusted R-squared only jumped to 0.3127
