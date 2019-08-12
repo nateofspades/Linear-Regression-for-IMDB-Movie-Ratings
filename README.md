@@ -11,7 +11,7 @@ This is the capstone project for Coursera's Linear Regression and Modeling MOOC.
 •Secondary: To build a linear regression model that predicts IMDB movie ratings (looking at adjusted R-squared).
 
 ### Univariate Analysis
-After some data cleaning, a univariate analysis was performed on the features. Some findings:
+After some data cleaning, a univariate analysis was performed on the features. Some findings: <br />
 •R-rated movies are the most common by rating. <br />
 •Drama movies are the most common by genre. <br />
 •Movies are most commonly released on the 1st of the month. <br />
@@ -20,7 +20,7 @@ After some data cleaning, a univariate analysis was performed on the features. S
 •Most movies are not directed by an Oscar-winning director.
 
 ### Bivariate Analysis
-Here we compared each of the features in the dataset to the target variable, IMDB rating. Some findings:
+Here we compared each of the features in the dataset to the target variable, IMDB rating. Some findings: <br />
 •Having an Oscar-winning director in the cast predicts higher ratings. <br />
 •However, having an Oscar-winning actor in the cast does not predict higher ratings. <br />
 •Documentaries rate higher than feature films. <br />
@@ -29,7 +29,7 @@ Here we compared each of the features in the dataset to the target variable, IMD
 •Many movies that are between 77-129 minutes in length rate below 5.6. However, not a single movie longer than 129 minutes rates this low (even though there are many movies longer than 129 minutes).
 
 ### Statistically-Significant Predictors of IMDB Rating
-The analysis found that each of the following have a p-value < 0.0006 when predicting IMDB Rating:
+The analysis found that each of the following have a p-value < 0.0006 when predicting IMDB Rating: <br />
 •movie length <br />
 •genre <br />
 •type ('Feature Film', 'Documentary') <br />
