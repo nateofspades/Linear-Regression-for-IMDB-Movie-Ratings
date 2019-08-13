@@ -40,7 +40,7 @@ As mentioned in the introduction, it was not feasible to build a high-performing
 
 ### What I Learned in Hindsight
 I completed this project in 2018. Looking back on it now, with an extra year of experience in data science, I would do a number of things differently, such as: <br /> <br />
-•Write my code under the functional programming paradigm; a lot of duplication of code be avoided (for example when building numerous similar ggplot visualizations). <br />
+•Write my code under the functional programming paradigm; a lot of duplication of code could be avoided (for example when building numerous similar ggplot visualizations). <br />
 •More appropriately use whitespace in my code to make it more human-readable. <br />
 •Use more descriptive variable-naming conventions. <br />
 •Remove the empty code block at the very end of the notebook. <br />
