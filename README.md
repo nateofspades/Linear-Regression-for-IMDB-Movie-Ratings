@@ -44,7 +44,7 @@ I completed this project in 2018. Looking back on it now, with an extra year of 
 •More appropriately use whitespace in my code to make it more human-readable. <br />
 •Use more descriptive variable-naming conventions. <br />
 •Remove the empty code block at the very end of the notebook. <br />
-•Move the definitions of functions lmp() (which extracts a model's p-value) and all.possible.regressions() from the end of the notebook to the beginning of the noteboo (and change the name 'lmp' to something more descriptive). <br />
+•Move the definitions of functions lmp() (which extracts a model's p-value) and all.possible.regressions() from the end of the notebook to the beginning of the notebook (and change the name 'lmp' to something more descriptive). <br />
 •Explicitly write ggplot code in the code blocks where the corresponding visualizations are produced. Beforehand though I would build a function which automates as much of the process of creating these plots as possible. (There are 19 such plots and the ggplot code is currently all stuffed into one code block at the end of the notebook.) <br />
 •Use TRUE/FALSE for Boolean values rather than 'yes'/'no'. <br />
 •Title the 'type' histogram as 'Type' rather than 'Feature Film?', in order to be consistent and descriptive. <br />
