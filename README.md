@@ -39,7 +39,7 @@ The analysis found that each of the following have a p-value < 0.0006 when predi
 As mentioned in the introduction, it was not feasible to build a high-performing linear regression model from this dataset. First I built a linear regression model that attempts to predict movie ratings using just the 5 significant predictors, but its adjusted R-squared was only 0.2993. Then I decided to take an all-possible-models approach, whereby I built one model for each possible subset of features and kept the one which performed best. This was computationally feasible given that there were just 10 features to choose from (and therefore a mere 2^10=1024 possible models), but the adjusted R-squared only jumped to 0.3127.
 
 ### My Learnings in Hindsight
-I completed this project in 2018. Looking back on it now, with an extra year of experience in data science, I would do a number of things differently: <br />
+I completed this project in 2018. Looking back on it now, with an extra year of experience in data science, I would do a number of things differently, such as: <br />
 •Write my code under the functional programming paradigm. <br />
 •More appropriately use whitespace in my code to make it more human-readable. <br />
 •Use more descriptive variable-naming conventions. <br />
