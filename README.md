@@ -39,11 +39,10 @@ The analysis found that each of the following have a p-value < 0.0006 when predi
 As mentioned in the introduction, it was not feasible to build a high-performing linear regression model from this dataset. First I built a linear regression model that attempts to predict movie ratings using just the 5 significant predictors, but its adjusted R-squared was only 0.2993. Then I decided to take an all-possible-models approach, whereby I built one model for each possible subset of features and kept the one which performed best. This was computationally feasible given that there were just 10 features to choose from (and therefore a mere 2^10=1024 possible models), but the adjusted R-squared only jumped to 0.3127.
 
 ### My Learnings in Hindsight
-I completed this project in 2018. Looking back on it now, with an extra year of experience in data science, I would do a number of things differently, such as: <br />
+I completed this project in 2018. Looking back on it now, with an extra year of experience in data science, I would do a number of things differently: <br />
 •Write my code under the functional programming paradigm. <br />
 •More appropriately use whitespace in my code to make it more human-readable. <br />
-•There are 3 large code blocks stuffed at the end of the notebook which contain the code for all of the visualizations and more. <br /> 
 •Use more descriptive variable-naming conventions. <br />
 •Remove empty code block at the very end of the notebook. <br />
 •Move the definitions of functions lmp() (which extracts a model's p-value) and all.possible.regressions() from the end of the notebook to the beginning of the notebook, and change the name 'lmp' to something more descriptive. <br />
-•The code for the 19 ggplot visualizations are all stuffed into one code block at the end of the notebook. I would prefer to explicitly write ggplot code in the code block where the visualization is produced. Beforehand though I would build a function which automates as much of the process of creating these 19 plots as possible.
+•Explicitly write ggplot code in the code blocks where the corresponding visualizations are produced. Beforehand though I would build a function which automates as much of the process of creating these plots as possible. (There are 19 such plots and the ggplot code is currently all stuffed into one code block at the end of the notebook.)
