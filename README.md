@@ -45,4 +45,10 @@ I completed this project in 2018. Looking back on it now, with an extra year of 
 •Use more descriptive variable-naming conventions. <br />
 •Remove the empty code block at the very end of the notebook. <br />
 •Move the definitions of functions lmp() (which extracts a model's p-value) and all.possible.regressions() from the end of the notebook to the beginning of the noteboo (and change the name 'lmp' to something more descriptive). <br />
-•Explicitly write ggplot code in the code blocks where the corresponding visualizations are produced. Beforehand though I would build a function which automates as much of the process of creating these plots as possible. (There are 19 such plots and the ggplot code is currently all stuffed into one code block at the end of the notebook.)
+•Explicitly write ggplot code in the code blocks where the corresponding visualizations are produced. Beforehand though I would build a function which automates as much of the process of creating these plots as possible. (There are 19 such plots and the ggplot code is currently all stuffed into one code block at the end of the notebook.) <br />
+•Use TRUE/FALSE for Boolean values rather than 'yes'/'no'. <br />
+•Title the 'type' histogram as 'Type' rather than 'Feature Film?', in order to be consistent and descriptive. <br />
+•Invest more time in understanding how each movie's genre is determined. Each movie is classified as just one genre, even though on the IMDB website a movie can be classified under many genres. <br />
+•If I had access to more data I would like to reanalyze how having a best actor in the cast affects movie ratings. The EDA showed that the effect is minimal, but this is plausibly due to a sample size issue.
+
+
